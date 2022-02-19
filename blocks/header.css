@@ -1,0 +1,60 @@
+.header {
+    background-image: url("../images/background_header.svg");
+    background-color: #FFF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: #fff url("../images/background_header.svg") center no-repeat cover; */
+    box-sizing:border-box;
+    height: 100vh;/* check this it is wonky on big screen*/
+    position: relative;
+}
+.logo{
+    left: 30px;
+    top: 30px;
+    /*if this is called .logo instead of header__logo is it ok for it to be in the header.css sheet*/
+}
+.nav{
+display: flex;
+justify-content:space-between;
+align-items: center;
+z-index:1;
+}
+.nav-list{
+display: flex;
+column-gap: 20px ;
+align-items: center;
+
+list-style-type: none;
+}
+.nav-list__item{
+
+}
+.nav__link{
+    color:#000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.25s linear;
+}
+.nav__link:hover{
+    color:#2F80ED;
+}
+.header__title{
+
+}
+.header__span-accent{
+
+}
+.header__description{
+
+}
+.header__image{
+top: 124px;
+right:5px;
+position: absolute;
+z-index: 0;
+max-width: 536px;/*check this edges still showing - ?make the background image in a separate container?*/
+}
+.header__footer{
+
+}

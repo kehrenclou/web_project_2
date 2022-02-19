@@ -11,19 +11,56 @@
     <title>Practicum Coffee Shop</title>
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="icon" type="images/x-icon" href="./favicon_coffee_bean.ico">
-    <link rel="stylesheet" href="./pages/index.css">
+    
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap" rel="stylesheet">
 
-    <!-- copied from project 1 - located after title  
+    <!-- Delete when not needed copied from project 1 - located after title  
       <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />  -->
   </head>
   <body>
     <div class="page">
-      <header></header>
+      <header class="header">
+        <nav class="nav">
+        <!-- should the img go in nav block like project 1 -->
+        <img 
+        src="./images/logo_coffee_shop.svg"
+        alt="Practicum Coffee Shop Logo"
+        class="logo">
+
+       
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a href="#" class="nav__link">Menu</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav__link">Recipes</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav__link">Book a table</a>
+            </li>
+            <li class="nav-list__item">
+              <a href="#" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- This needs span-accent class -- review -->
+        <h1 class="header__title header__span-accent">Specialty coffee</h1>
+        <h1 class="header__title">in the Practicum Library</h1>
+        <!-- End of span- accent area -->
+        <p class="header__description">Welcome to our study zone! 
+          We've got the coffee to energize you and the cozy vibes to help 
+          you get creative.
+        </p>
+        <img
+        src="./images/inside_coffee_shop.png"
+        alt="Illustration of the Practicum Library and Coffee Shop"
+        class="header__image">
+<p class="header__footer"></p>
+      </header>
       <main>
         <section class="menu"></section>
         <section class="recipes"></section>
