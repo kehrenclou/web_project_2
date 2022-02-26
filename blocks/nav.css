@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+    justify-content:flex-end;
+    position: relative;
+    padding: 30px 80px 202px;
+    z-index:1;
+    }
+    .nav__list{
+    display: flex;
+    column-gap: 20px ;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    }
+    .nav__list-item{
+    
+    }
+    .nav__link{
+        color:#000;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.25s ease-in-out;
+    }
+    .nav__link:hover{
+        color:#2F80ED;
+    }

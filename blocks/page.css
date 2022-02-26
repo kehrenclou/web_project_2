@@ -1,13 +1,9 @@
 .page{
     min-width: 1100px;
     max-width: 1600px;
+    margin: 0 auto; /*not sure about this one*/
     font-family: "Inter", "Arial", sans-serif;
     font-size: 16px;
     line-height: 20px;
 }
-/*check and see if @ media is the way to go to centre block for screens>1600px*/
-@media (min-width: 1600px) {
-    body{
-    margin: 0 auto;
-    }
-}
+

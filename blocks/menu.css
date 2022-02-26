@@ -1,0 +1,41 @@
+.menu{
+background-color: #0a2750;
+background-image: url("../images/background_menu.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+flex-direction: column;
+}
+.menu__title{
+    max-width: 780px;
+    justify-content:center;
+    align-items: center;
+
+}
+.menu__subtitle{
+
+}
+.menu__cards{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    max-width: 1300px;
+    padding: 0 100px;
+    gap: 100px;
+
+}
+.card{
+max-width: 600px;
+}
+.card__title{
+
+}
+.card__list-item{
+    display: flex;
+    flex-grow: 1;
+
+}
+.card__list-divider{
+
+}

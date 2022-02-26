@@ -6,48 +6,51 @@
     background-size: cover;
     /* background: #fff url("../images/background_header.svg") center no-repeat cover; */
     box-sizing:border-box;
-    height: 100vh;/* check this it is wonky on big screen*/
+    height: 100vh; /*check this it is wonky on big screen*/
     position: relative;
+    padding: 30px 80px 40px;
 }
-.logo{
-    left: 30px;
-    top: 30px;
-    /*if this is called .logo instead of header__logo is it ok for it to be in the header.css sheet*/
-}
-.nav{
-display: flex;
-justify-content:space-between;
-align-items: center;
-z-index:1;
-}
-.nav-list{
-display: flex;
-column-gap: 20px ;
-align-items: center;
 
-list-style-type: none;
-}
-.nav-list__item{
-
-}
-.nav__link{
-    color:#000;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.25s linear;
-}
-.nav__link:hover{
-    color:#2F80ED;
-}
 .header__title{
+margin-top:0;
 
+font-family: Inter,'Arial', sans-serif;
+font-weight: 500;
+font-size: 60px;
+line-height: 72px;
+position: relative; 
+z-index: 1;
+margin-bottom:28px;
 }
+
 .header__span-accent{
+font-family: Noto Serif,'Times New Roman', serif;
+font-style: italic;
 
+font-size: 60px;
+line-height: 72px;
+color: #2F80ED;
 }
+.header__span-accent::after {
+    content: "\A";
+    white-space: pre;
+  }
+
 .header__description{
 
+font-family: Noto Serif,'Times New Roman', serif;
+font-size: 20px;
+line-height: 30px;
+margin:0;
+position: relative;
+z-index: 2;
 }
+
+.header__description-break::before{
+    content: "\A";
+    white-space: pre;
+}
+
 .header__image{
 top: 124px;
 right:5px;
@@ -56,5 +59,33 @@ z-index: 0;
 max-width: 536px;/*check this edges still showing - ?make the background image in a separate container?*/
 }
 .header__footer{
+font-weight: 500;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;/* brings items down 2*axis*/
+position:absolute;
+bottom:40px;
+left: 0;
+z-index: 3;
+margin:0;
+width: 100%;
+/* padding: 0 80px 40px; */
+
+
+}
+
+.header__hours{
+display:flex;
+flex-direction: column;
+justify-content: flex-start;
+
+}
+
+.header__paragraph{
+    margin: 0;
+  
+}
+
+.header__address{
 
 }

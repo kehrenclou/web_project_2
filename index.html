@@ -12,57 +12,87 @@
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="icon" type="images/x-icon" href="./favicon_coffee_bean.ico">
     
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap" rel="stylesheet">
 
-    <!-- Delete when not needed copied from project 1 - located after title  
-      <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/style.css" />  -->
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <nav class="nav">
-        <!-- should the img go in nav block like project 1 -->
-        <img 
-        src="./images/logo_coffee_shop.svg"
-        alt="Practicum Coffee Shop Logo"
-        class="logo">
+          
+          <img 
+          src="./images/logo_coffee_shop.svg"
+          alt="Practicum Coffee Shop Logo"
+          class="logo">
 
-       
-          <ul class="nav-list">
-            <li class="nav-list__item">
+        <nav class="nav">
+
+          <ul class="nav__list">
+            <li class="nav__list-item">
               <a href="#" class="nav__link">Menu</a>
             </li>
-            <li class="nav-list__item">
+            <li class="nav__list-item">
               <a href="#" class="nav__link">Recipes</a>
             </li>
-            <li class="nav-list__item">
+            <li class="nav__list-item">
               <a href="#" class="nav__link">Book a table</a>
             </li>
-            <li class="nav-list__item">
+            <li class="nav__list-item">
               <a href="#" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
-        <!-- This needs span-accent class -- review -->
-        <h1 class="header__title header__span-accent">Specialty coffee</h1>
-        <h1 class="header__title">in the Practicum Library</h1>
-        <!-- End of span- accent area -->
-        <p class="header__description">Welcome to our study zone! 
-          We've got the coffee to energize you and the cozy vibes to help 
-          you get creative.
+
+       
+        <h1 class="header__title"><span class="header__span-accent">Specialty coffee</span> in the Practicum Library</h1>
+        <p class="header__description">Welcome to our study zone!  We've got the coffee to energize you and <span class="header__description-break">the cozy vibes to help 
+          you get creative.</span>
         </p>
         <img
         src="./images/inside_coffee_shop.png"
         alt="Illustration of the Practicum Library and Coffee Shop"
         class="header__image">
-<p class="header__footer"></p>
+      
+        
+        <div class="header__footer"> 
+          <div class="header__hours">
+            <p class="header__paragraph">Hours</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+          </div>
+          <div class="header__address">
+            <p class="header__paragraph">200 Success Avenue, The Town of Practicum</p>
+        </div>
+        </div>
       </header>
       <main>
-        <section class="menu"></section>
+        <section class="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups.  All teas from our collection are $2/cup.</p>
+          <div class="menu__cards">
+
+            <div class="card">
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list">
+                <li class="card__list-item"><span class="card__list-divider">Regular (12 oz)</span>$1</li>
+            </div>
+          
+       
+            <div class="card">
+              <h3 class="card__title">Espresso</h3>
+              <ul class="card__list">
+                <li class="card__list-item"><span class="card__list-divider">Regular (12 oz)</span>$1</li>
+            </div>
+       
+         
+            <div class="card">
+              <h3 class="card__title">Baked Goods</h3>
+              <ul class="card__list">
+                <li class="card__list-item"><span class="card__list-divider">Regular (12 oz)</span>$1</li>
+            </div>
+       </div>
+        </section>
         <section class="recipes"></section>
         <section class="reservation"></section>
         <section class="about"></section>
