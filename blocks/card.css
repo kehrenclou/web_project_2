@@ -1,0 +1,42 @@
+.card {
+  max-width: 600px;
+  width: calc(50% - 50px);
+
+  box-sizing: border-box;
+  justify-content: center;
+}
+.card__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 32px;
+}
+.card__list {
+  font-family: Noto Serif, "Times New Roman", serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.card__list-item {
+  display: flex;
+  flex-grow: 1;
+  margin-bottom: 16px;
+}
+.card__list-item:last-child {
+  margin: 0;
+}
+
+.card__list-divider {
+  display: flex;
+  flex-grow: 1;
+  align-items: baseline;
+}
+.card__list-divider::after {
+  content: "";
+  min-width: 50px;
+  border-bottom: 1px solid #fff;
+  margin-left: 8px;
+  margin-right: 8px;
+  flex-grow: 1;
+}
