@@ -15,7 +15,6 @@
   align-self: flex-start; /*puts labels to left*/
 }
 .form__input {
-  /*needs  a border radius 4px*/
   border-radius: 4px;
   display: block;
   box-sizing: border-box; /* makes input field fit in container without overflow*/
@@ -23,7 +22,7 @@
   font-size: 20px;
   font-family: Inter, "Arial", sans-serif;
   line-height: 30px;
-  /* color: #838383; from brief input placeholder text color */
+
   width: 100%;
   max-width: 385px;
   margin-bottom: 32px;
@@ -37,7 +36,7 @@
   background-color: #2f80ed;
   color: #fff;
   border-radius: 4px;
-  font-family: inherit; /*is this needed?*/
+  font-family: inherit; /*adding inherit since buttons/input don't inherit*/
   font-weight: 500;
   line-height: 30px;
   padding: 10px;

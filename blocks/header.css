@@ -4,9 +4,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background: #fff url("../images/background_header.svg") center no-repeat cover; */
+
   box-sizing: border-box;
-  height: 100vh; /*check this it is wonky on big screen*/
+  height: 100vh;
   position: relative;
   padding: 30px 80px 40px;
 }
@@ -55,7 +55,7 @@
   right: 5px;
   position: absolute;
   z-index: 0;
-  max-width: 536px; /*check this edges still showing - ?make the background image in a separate container?*/
+  max-width: 536px;
 }
 .header__footer {
   font-weight: 500;
