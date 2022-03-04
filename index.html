@@ -33,16 +33,16 @@
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__list-item">
-              <a href="#" class="nav__link">Menu</a>
+              <a href="#menu" class="nav__link">Menu</a>
             </li>
             <li class="nav__list-item">
-              <a href="#" class="nav__link">Recipes</a>
+              <a href="#recipes" class="nav__link">Recipes</a>
             </li>
             <li class="nav__list-item">
-              <a href="#" class="nav__link">Book a table</a>
+              <a href="#reservation" class="nav__link">Book a table</a>
             </li>
             <li class="nav__list-item">
-              <a href="#" class="nav__link">Contacts</a>
+              <a href="#about" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -78,7 +78,7 @@
       </header>
 
       <main>
-        <section class="menu">
+        <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
@@ -154,7 +154,7 @@
             </div>
           </div>
         </section>
-        <section class="recipes">
+        <section class="recipes" id="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for<span
@@ -185,10 +185,131 @@
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
-        <section class="about"></section>
+
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input
+                class="form__input"
+                type="text"
+                required
+                id="name"
+                placeholder="Name Surname"
+              /><!--name-->
+
+              <label for="number-of-guests" class="form__label"
+                >Number of guests *</label
+              >
+              <input
+                class="form__input"
+                type="number"
+                required
+                id="number-of-guests"
+                min="1"
+                max="8"
+                step="1"
+                placeholder="1-8"
+              /><!--# guests-->
+
+              <label for="date-time" class="form__label">Date & Time *</label>
+              <input class="form__input" type="date" required id="date-time" />
+
+              <label for="email" class="form__label">Your email *</label>
+              <input
+                class="form__input"
+                required
+                type="email"
+                id="email"
+                placeholder="email@email.com"
+              /><!--email-->
+
+              <button class="form__button" type="submit">Book a Table</button>
+
+              <div>
+                <input
+                  type="checkbox"
+                  class="form__checkbox"
+                  required
+                  name="checkbox"
+                  id="checkbox"
+                />
+                <label for="checkbox" class="form__label"
+                  >I agree with the terms of use</label
+                >
+              </div>
+              <!-- <label class="form__label"
+                ><input
+                  class="form__checkbox"
+                  type="checkbox"
+                  name="checkbox"
+                  required
+                />
+                I agree with the terms of use
+              </label> -->
+            </fieldset>
+          </form>
+        </section>
+        <section class="about" id="about">
+          <h3 class="about__title">
+            About the<span class="about__title-break">coffee shop</span>
+          </h3>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Practicum Library's hall. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle_animation_blurred"></div>
+        </section>
       </main>
-      <footer></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <div class="" footer__column_icon>
+            <img
+              src="./images/logo_practicum.svg"
+              alt="Practicum Logo"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column_social">
+            <p class="footer__social-heading">Social media</p>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/facebook_white.svg"
+                    alt="Facebook icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__social-link">
+                  <img
+                    class="footer__social-icon"
+                    src="./images/instagram_white.svg"
+                    alt="Instagram Icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">@2022 Krista Ehrenclou</p>
+      </footer>
     </div>
   </body>
 </html>

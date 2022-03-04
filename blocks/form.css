@@ -1,0 +1,65 @@
+.form__fieldset {
+  margin: 80px 0 0 0;
+  padding: 0;
+  /*from lesson*/
+  border: none; /* controlls outside border of fieldset group*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__label {
+  margin-bottom: 8px; /*this is putting the margin on the bottom of the input box*/
+  font-weight: 500;
+  font-family: inherit;
+
+  align-self: flex-start; /*puts labels to left*/
+}
+.form__input {
+  /*needs  a border radius 4px*/
+  border-radius: 4px;
+  display: block;
+  box-sizing: border-box; /* makes input field fit in container without overflow*/
+
+  font-size: 20px;
+  font-family: Inter, "Arial", sans-serif;
+  line-height: 30px;
+  /* color: #838383; from brief input placeholder text color */
+  width: 100%;
+  max-width: 385px;
+  margin-bottom: 32px;
+  border: none; /*removed borders to make it look like images on brief*/
+  padding: 10px;
+}
+.form__input::placeholder {
+  color: #838383; /*from brief input placeholder text color*/
+}
+.form__button {
+  background-color: #2f80ed;
+  color: #fff;
+  border-radius: 4px;
+  font-family: inherit; /*is this needed?*/
+  font-weight: 500;
+  line-height: 30px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  margin-bottom: 32px;
+  transition: 0.25s ease-in-out opacity;
+}
+.form__button:hover {
+  opacity: 0.7;
+}
+.form__checkbox {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin-right: 0;
+  position: relative;
+  vertical-align: bottom;
+  display: inline;
+}
+
+.form__label[for="checkbox"] {
+  margin-left: 12px;
+}
