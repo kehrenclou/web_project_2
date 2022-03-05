@@ -26,7 +26,7 @@
   width: 100%;
   max-width: 385px;
   margin-bottom: 32px;
-  border: none; /*removed borders to make it look like images on brief*/
+  border: 1px solid #838383;
   padding: 10px;
 }
 .form__input::placeholder {
@@ -59,6 +59,6 @@
   display: inline;
 }
 
-.form__label[for="checkbox"] {
+.form__label_type_checkbox {
   margin-left: 12px;
 }
