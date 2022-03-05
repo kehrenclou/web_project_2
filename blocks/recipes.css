@@ -18,16 +18,13 @@
 }
 .recipes__subtitle {
   position: relative;
-  max-width: 438px; /*used to make line break instead of \A white-space*/
+  max-width: 438px;
   margin: 24px 0 0 0;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
-/* .recipes__subtitle-break::before {
-  content: "\A";
-  white-space: pre;
-} */
+
 .recipes__videos-list {
   display: flex;
   justify-content: center;
@@ -41,7 +38,7 @@
 }
 .recipes__iframe {
   border: none;
-  width: 480px; /* change to 100% put 480px on parent one level up*/
+  width: 480px;
   height: 273px;
 }
 

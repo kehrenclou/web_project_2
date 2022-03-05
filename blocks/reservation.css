@@ -13,13 +13,9 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  width: fit-content; /*allowed it to center*/
+  width: fit-content;
 }
 .reservation__form {
-  /*define width and margins in reservation__form per brief*/
-  /*can only specify these properties for child elements in BEM
-  putting width and margin here puts it to left of page, 
-  removing centers container on page*/
   width: 385px;
-  margin: 0 auto; /*centers bloxk*/
+  margin: 0 auto;
 }

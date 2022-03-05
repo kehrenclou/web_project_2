@@ -1,23 +1,23 @@
 .form__fieldset {
   margin: 80px 0 0 0;
   padding: 0;
-  /*from lesson*/
-  border: none; /* controlls outside border of fieldset group*/
+
+  border: none;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .form__label {
-  margin-bottom: 8px; /*this is putting the margin on the bottom of the input box*/
+  margin-bottom: 8px;
   font-weight: 500;
   font-family: inherit;
 
-  align-self: flex-start; /*puts labels to left*/
+  align-self: flex-start;
 }
 .form__input {
   border-radius: 4px;
   display: block;
-  box-sizing: border-box; /* makes input field fit in container without overflow*/
+  box-sizing: border-box;
 
   font-size: 20px;
   font-family: Inter, "Arial", sans-serif;
@@ -30,13 +30,13 @@
   padding: 10px;
 }
 .form__input::placeholder {
-  color: #838383; /*from brief input placeholder text color*/
+  color: #838383;
 }
 .form__button {
   background-color: #2f80ed;
   color: #fff;
   border-radius: 4px;
-  font-family: inherit; /*adding inherit since buttons/input don't inherit*/
+  font-family: inherit;
   font-weight: 500;
   line-height: 30px;
   padding: 10px;

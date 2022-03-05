@@ -29,12 +29,8 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
-  display: block; /*removed "/A" white-space:pre syntax added display:block for format*/
+  display: block;
 }
-/* .header__span-accent::after {
-  content: "\A";
-  white-space: pre;
-} */
 
 .header__description {
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -43,7 +39,7 @@
   margin: 0;
   position: relative;
   z-index: 2;
-  max-width: 654px; /*sets line break*/
+  max-width: 654px;
 }
 
 .header__image {
@@ -57,7 +53,7 @@
   font-weight: 500;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end; /* brings items down 2*axis*/
+  align-items: flex-end;
   position: absolute;
   bottom: 40px;
   left: 0;
