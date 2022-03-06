@@ -30,6 +30,8 @@
   justify-content: center;
   margin-top: 80px;
   column-gap: 40px;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .recipes__videos-list-item {
