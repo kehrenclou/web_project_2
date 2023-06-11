@@ -1,6 +1,9 @@
 # Practicum Coffee Shop
 
 This is the second project of the Web Development program at Practicum by Yandex. It was created using HTML and CSS, based on the design brief.
+## Live Stie
+https://kehrenclou.github.io/web_project_2/
+## Demo
 
 ## Project features
 
