@@ -4,13 +4,14 @@ This is the second project of the Web Development program at Practicum by Yandex
 ## Live Stie
 https://kehrenclou.github.io/web_project_2/
 ## Demo
+[Project 2 clip.webm](https://github.com/kehrenclou/web_project_2/assets/98502327/9bd9d92d-f061-4528-9c57-e798a6e0e089)
 
 ## Project features
 
-- Semantic HTML5
-- Flexbox
-- Positioning
-- Flat BEM
+- Semantic HTML5, Flat BEM
+- Flexbox, Positioning
+- Pop out calendar
+- Links and hover effect
 - A custom form
 - CSS animation and transform
 
